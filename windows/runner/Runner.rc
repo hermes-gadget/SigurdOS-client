@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "org.slopos.client" "\0"
-            VALUE "FileDescription", "SlopOS" "\0"
+            VALUE "CompanyName", "org.sigurdos.client" "\0"
+            VALUE "FileDescription", "SigurdOS" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "SlopOS" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2025 SlopOS Contributors. All rights reserved." "\0"
-            VALUE "OriginalFilename", "SlopOS.exe" "\0"
-            VALUE "ProductName", "SlopOS" "\0"
+            VALUE "InternalName", "SigurdOS" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 SigurdOS Contributors. All rights reserved." "\0"
+            VALUE "OriginalFilename", "SigurdOS.exe" "\0"
+            VALUE "ProductName", "SigurdOS" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

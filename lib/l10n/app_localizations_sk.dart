@@ -9,7 +9,7 @@ class AppLocalizationsSk extends AppLocalizations {
   AppLocalizationsSk([String locale = 'sk']) : super(locale);
 
   @override
-  String get appTitle => 'SlopOS';
+  String get appTitle => 'SigurdOS';
 
   @override
   String get nav_contacts => 'Kontakty';
@@ -512,7 +512,7 @@ class AppLocalizationsSk extends AppLocalizations {
   }
 
   @override
-  String get settings_aboutLegalese => 'SlopOS Source Projekt 2024';
+  String get settings_aboutLegalese => 'SigurdOS Source Projekt 2024';
 
   @override
   String get settings_aboutDescription =>
@@ -4021,11 +4021,11 @@ class AppLocalizationsSk extends AppLocalizations {
 
   @override
   String get settings_gpxExportShareText =>
-      'Mapové údaje exportované z slopos-client';
+      'Mapové údaje exportované z sigurdos-client';
 
   @override
   String get settings_gpxExportShareSubject =>
-      'slopos-client export dát GPX mapových údajov';
+      'sigurdos-client export dát GPX mapových údajov';
 
   @override
   String get snrIndicator_nearByRepeaters => 'Miestne opakovače';

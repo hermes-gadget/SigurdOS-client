@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:slopos_client/utils/gpx_export.dart';
-import 'package:slopos_client/widgets/elements_ui.dart';
+import 'package:sigurdos_client/utils/gpx_export.dart';
+import 'package:sigurdos_client/widgets/elements_ui.dart';
 import 'package:provider/provider.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 

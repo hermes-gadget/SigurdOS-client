@@ -3,11 +3,11 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 
-import 'package:slopos_client/connector/meshcore_connector.dart';
-import 'package:slopos_client/l10n/app_localizations.dart';
-import 'package:slopos_client/screens/scanner_screen.dart';
-import 'package:slopos_client/screens/usb_screen.dart';
-import 'package:slopos_client/utils/platform_info.dart';
+import 'package:sigurdos_client/connector/meshcore_connector.dart';
+import 'package:sigurdos_client/l10n/app_localizations.dart';
+import 'package:sigurdos_client/screens/scanner_screen.dart';
+import 'package:sigurdos_client/screens/usb_screen.dart';
+import 'package:sigurdos_client/utils/platform_info.dart';
 
 class _FakeMeshCoreConnector extends MeshCoreConnector {
   _FakeMeshCoreConnector({

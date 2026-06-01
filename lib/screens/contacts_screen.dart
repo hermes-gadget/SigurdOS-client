@@ -2,11 +2,11 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:slopos_client/screens/path_trace_map.dart';
-import 'package:slopos_client/services/notification_service.dart';
-import 'package:slopos_client/utils/app_logger.dart';
-import 'package:slopos_client/utils/platform_info.dart';
-import 'package:slopos_client/widgets/app_bar.dart';
+import 'package:sigurdos_client/screens/path_trace_map.dart';
+import 'package:sigurdos_client/services/notification_service.dart';
+import 'package:sigurdos_client/utils/app_logger.dart';
+import 'package:sigurdos_client/utils/platform_info.dart';
+import 'package:sigurdos_client/widgets/app_bar.dart';
 import 'package:provider/provider.dart';
 
 import '../connector/meshcore_connector.dart';

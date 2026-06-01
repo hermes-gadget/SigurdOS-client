@@ -8,7 +8,7 @@
     }
   },
   "@@locale": "de",
-  "appTitle": "SlopOS",
+  "appTitle": "SigurdOS",
   "nav_contacts": "Kontakte",
   "nav_channels": "Kanäle",
   "nav_map": "Karte",
@@ -52,7 +52,7 @@
       }
     }
   },
-  "scanner_title": "SlopOS",
+  "scanner_title": "SigurdOS",
   "scanner_scanning": "Scannen nach Geräten...",
   "scanner_connecting": "Verbunden...",
   "scanner_disconnecting": "Trenne...",
@@ -121,7 +121,7 @@
   "settings_appDebugLog": "App-Debug-Protokoll",
   "settings_appDebugLogSubtitle": "Anwendung Debug-Nachrichten",
   "settings_about": "Über",
-  "settings_aboutVersion": "SlopOS, Version {version}",
+  "settings_aboutVersion": "SigurdOS, Version {version}",
   "@settings_aboutVersion": {
     "placeholders": {
       "version": {
@@ -129,7 +129,7 @@
       }
     }
   },
-  "settings_aboutLegalese": "SlopOS Source Projekt 2026",
+  "settings_aboutLegalese": "SigurdOS Source Projekt 2026",
   "settings_aboutDescription": "Ein Open-Source-Flutter-Client für MeshCore LoRa-Meshnetzwerkgeräte.",
   "settings_infoName": "Name",
   "settings_infoId": "ID",
@@ -1713,8 +1713,8 @@
   "settings_gpxExportNotAvailable": "Nicht auf Ihrem Gerät/Betriebssystem unterstützt",
   "settings_gpxExportSuccess": "GPX-Datei erfolgreich exportiert.",
   "settings_gpxExportAllContacts": "Alle Kontaktstandorte",
-  "settings_gpxExportShareSubject": "GPX-Kartendaten aus slopos-client exportieren",
-  "settings_gpxExportShareText": "GPX-Kartendaten aus slopos-client exportiert",
+  "settings_gpxExportShareSubject": "GPX-Kartendaten aus sigurdos-client exportieren",
+  "settings_gpxExportShareText": "GPX-Kartendaten aus sigurdos-client exportiert",
   "pathTrace_someHopsNoLocation": "Bei einer oder mehreren Knoten fehlt der Standort!",
   "map_removeLast": "Letztes Entfernen",
   "map_tapToAdd": "Tippen Sie auf Knoten, um sie zum Pfad hinzuzufügen.",

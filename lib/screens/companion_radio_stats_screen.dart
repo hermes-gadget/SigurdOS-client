@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:slopos_client/connector/meshcore_connector.dart';
-import 'package:slopos_client/models/companion_radio_stats.dart';
-import 'package:slopos_client/l10n/l10n.dart';
+import 'package:sigurdos_client/connector/meshcore_connector.dart';
+import 'package:sigurdos_client/models/companion_radio_stats.dart';
+import 'package:sigurdos_client/l10n/l10n.dart';
 import 'package:provider/provider.dart';
 
 class CompanionRadioStatsScreen extends StatefulWidget {

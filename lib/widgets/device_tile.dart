@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 import '../l10n/l10n.dart';
-import '../services/slopos_ecosystem.dart';
-import '../theme/slopos_theme.dart';
+import '../services/sigurdos_ecosystem.dart';
+import '../theme/sigurdos_theme.dart';
 import 'signal_ui.dart';
 
 /// A reusable tile widget for displaying a MeshCore device in a list.
-/// SlopOS devices get a cyan #SlopOS badge.
+/// SigurdOS devices get a cyan #SigurdOS badge.
 class DeviceTile extends StatelessWidget {
   final ScanResult scanResult;
   final VoidCallback onTap;
@@ -20,7 +20,7 @@ class DeviceTile extends StatelessWidget {
     final name = device.platformName.isNotEmpty
         ? device.platformName
         : scanResult.advertisementData.advName;
-    final isSlopOS = isSlopOSDevice(name);
+    final isSigurdOS = isSigurdOSDevice(name);
 
     return ListTile(
       leading: _buildSignalIcon(rssi),
@@ -29,14 +29,14 @@ class DeviceTile extends StatelessWidget {
           Flexible(
             child: Text(
               name.isNotEmpty ? name : context.l10n.common_unknownDevice,
-              style: SlopOSTheme.pixelBody(
+              style: SigurdOSTheme.pixelBody(
                 fontWeight: FontWeight.w600,
                 fontSize: 13,
               ),
               overflow: TextOverflow.ellipsis,
             ),
           ),
-          if (isSlopOS) ...[
+          if (isSigurdOS) ...[
             const SizedBox(width: 8),
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1),
@@ -49,7 +49,7 @@ class DeviceTile extends StatelessWidget {
                 ),
               ),
               child: const Text(
-                '#SlopOS',
+                '#SigurdOS',
                 style: TextStyle(
                   fontSize: 8,
                   fontWeight: FontWeight.w400,

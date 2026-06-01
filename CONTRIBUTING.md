@@ -1,4 +1,4 @@
-# How to contribute to SlopOS Client
+# How to contribute to SigurdOS Client
 
 Before submitting any pull requests (PR), please review the following information.
 
@@ -11,9 +11,9 @@ may also be rejected. [See more](#ai-use)
 
 ### **Did you find a bug?**
 
-* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/hermes-gadget/SlopOS-client/issues).
+* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/hermes-gadget/SigurdOS-client/issues).
 
-* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/hermes-gadget/SlopOS-client/issues/new).
+* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/hermes-gadget/SigurdOS-client/issues/new).
 Be sure to include a **title and clear description**, as much relevant
 information as possible, and a **code sample** or an **executable test case**
 demonstrating the expected behavior that is not occurring. You can also include

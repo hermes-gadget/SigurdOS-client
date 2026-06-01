@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:slopos_client/utils/usb_port_labels.dart';
+import 'package:sigurdos_client/utils/usb_port_labels.dart';
 
 void main() {
   test('normalizeUsbPortName strips friendly suffix from composite label', () {

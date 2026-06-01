@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:slopos_client/helpers/reaction_helper.dart';
-import 'package:slopos_client/widgets/emoji_picker.dart';
+import 'package:sigurdos_client/helpers/reaction_helper.dart';
+import 'package:sigurdos_client/widgets/emoji_picker.dart';
 
 void main() {
   group('ReactionHelper', () {

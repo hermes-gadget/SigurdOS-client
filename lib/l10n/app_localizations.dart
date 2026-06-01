@@ -133,7 +133,7 @@ abstract class AppLocalizations {
   /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
-  /// **'SlopOS'**
+  /// **'SigurdOS'**
   String get appTitle;
 
   /// No description provided for @nav_contacts.
@@ -331,7 +331,7 @@ abstract class AppLocalizations {
   /// No description provided for @scanner_title.
   ///
   /// In en, this message translates to:
-  /// **'SlopOS'**
+  /// **'SigurdOS'**
   String get scanner_title;
 
   /// No description provided for @connectionChoiceUsbLabel.
@@ -1039,13 +1039,13 @@ abstract class AppLocalizations {
   /// No description provided for @settings_aboutVersion.
   ///
   /// In en, this message translates to:
-  /// **'SlopOS v{version}'**
+  /// **'SigurdOS v{version}'**
   String settings_aboutVersion(String version);
 
   /// No description provided for @settings_aboutLegalese.
   ///
   /// In en, this message translates to:
-  /// **'2026 SlopOS Source Project'**
+  /// **'2026 SigurdOS Source Project'**
   String get settings_aboutLegalese;
 
   /// No description provided for @settings_aboutDescription.
@@ -6937,13 +6937,13 @@ abstract class AppLocalizations {
   /// No description provided for @settings_gpxExportShareText.
   ///
   /// In en, this message translates to:
-  /// **'Map data exported from slopos-client'**
+  /// **'Map data exported from sigurdos-client'**
   String get settings_gpxExportShareText;
 
   /// No description provided for @settings_gpxExportShareSubject.
   ///
   /// In en, this message translates to:
-  /// **'slopos-client GPX map data export'**
+  /// **'sigurdos-client GPX map data export'**
   String get settings_gpxExportShareSubject;
 
   /// No description provided for @snrIndicator_nearByRepeaters.

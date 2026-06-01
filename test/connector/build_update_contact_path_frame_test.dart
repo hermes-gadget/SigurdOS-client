@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:slopos_client/connector/meshcore_protocol.dart';
+import 'package:sigurdos_client/connector/meshcore_protocol.dart';
 
 void main() {
   // Frame layout per the doc comment on buildUpdateContactPathFrame:

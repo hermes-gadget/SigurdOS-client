@@ -1,5 +1,5 @@
 {
-  "name": "slopos-client",
+  "name": "sigurdos-client",
   "scripts": {
     "build": "dart run build_pipe:build"
   }

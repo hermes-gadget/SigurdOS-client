@@ -9,7 +9,7 @@ class AppLocalizationsHu extends AppLocalizations {
   AppLocalizationsHu([String locale = 'hu']) : super(locale);
 
   @override
-  String get appTitle => 'SlopOS';
+  String get appTitle => 'SigurdOS';
 
   @override
   String get nav_contacts => 'Kapcsolatok';
@@ -112,7 +112,7 @@ class AppLocalizationsHu extends AppLocalizations {
   }
 
   @override
-  String get scanner_title => 'SlopOS';
+  String get scanner_title => 'SigurdOS';
 
   @override
   String get connectionChoiceUsbLabel => 'USB';
@@ -513,7 +513,7 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String settings_aboutVersion(String version) {
-    return 'SlopOS $version verzió';
+    return 'SigurdOS $version verzió';
   }
 
   @override
@@ -4057,11 +4057,11 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get settings_gpxExportShareText =>
-      'A slopos-client-ból exportált térkéadatumok';
+      'A sigurdos-client-ból exportált térkéadatumok';
 
   @override
   String get settings_gpxExportShareSubject =>
-      'slopos-client GPX formátumú térképi adatok export';
+      'sigurdos-client GPX formátumú térképi adatok export';
 
   @override
   String get snrIndicator_nearByRepeaters => 'Helyszíni erősítők';

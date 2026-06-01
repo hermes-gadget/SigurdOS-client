@@ -8,7 +8,7 @@
     }
   },
   "@@locale": "sv",
-  "appTitle": "SlopOS",
+  "appTitle": "SigurdOS",
   "nav_contacts": "Kontakter",
   "nav_channels": "Kanaler",
   "nav_map": "Karta",
@@ -121,7 +121,7 @@
   "settings_appDebugLog": "Appfelsökning",
   "settings_appDebugLogSubtitle": "Applikations felsökningsmeddelanden",
   "settings_about": "Om",
-  "settings_aboutVersion": "SlopOS version {version}",
+  "settings_aboutVersion": "SigurdOS version {version}",
   "@settings_aboutVersion": {
     "placeholders": {
       "version": {
@@ -1682,8 +1682,8 @@
   "settings_gpxExportChat": "Medhjälparplatser",
   "settings_gpxExportError": "Det uppstod ett fel när data exporterades.",
   "settings_gpxExportAllContacts": "Alla kontakters platser",
-  "settings_gpxExportShareSubject": "slopos-client export av GPX-kartdata",
-  "settings_gpxExportShareText": "Kartdata exporterad från slopos-client",
+  "settings_gpxExportShareSubject": "sigurdos-client export av GPX-kartdata",
+  "settings_gpxExportShareText": "Kartdata exporterad från sigurdos-client",
   "pathTrace_someHopsNoLocation": "En eller flera av humlen saknar en plats!",
   "pathTrace_clearTooltip": "Rensa väg",
   "map_pathTraceCancelled": "Sökvägsspårning avbruten.",

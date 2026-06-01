@@ -8,7 +8,7 @@
     }
   },
   "@@locale": "pl",
-  "appTitle": "SlopOS",
+  "appTitle": "SigurdOS",
   "nav_contacts": "Kontakty",
   "nav_channels": "Kanały",
   "nav_map": "Mapa",
@@ -121,7 +121,7 @@
   "settings_appDebugLog": "Dziennik debugowania aplikacji",
   "settings_appDebugLogSubtitle": "Komunikaty debugowania aplikacji",
   "settings_about": "O aplikacji",
-  "settings_aboutVersion": "SlopOS w wersji {version}",
+  "settings_aboutVersion": "SigurdOS w wersji {version}",
   "@settings_aboutVersion": {
     "placeholders": {
       "version": {
@@ -129,7 +129,7 @@
       }
     }
   },
-  "settings_aboutLegalese": "Projekt SlopOS Source 2026",
+  "settings_aboutLegalese": "Projekt SigurdOS Source 2026",
   "settings_aboutDescription": "Otwartoźródłowy klient Flutter dla urządzeń MeshCore LoRa do sieci mesh.",
   "settings_infoName": "Nazwa",
   "settings_infoId": "ID",
@@ -1720,8 +1720,8 @@
   "settings_gpxExportAllContacts": "Wszystkie lokalizacje kontaktów",
   "settings_gpxExportNoContacts": "Brak kontaktów do wyeksportowania.",
   "settings_gpxExportChat": "Lokalizacje towarzyszy",
-  "settings_gpxExportShareText": "Dane mapy wyeksportowane z slopos-client",
-  "settings_gpxExportShareSubject": "Eksport danych mapy GPX slopos-client",
+  "settings_gpxExportShareText": "Dane mapy wyeksportowane z sigurdos-client",
+  "settings_gpxExportShareSubject": "Eksport danych mapy GPX sigurdos-client",
   "pathTrace_someHopsNoLocation": "Jeden lub więcej z chmieli nie ma określonej lokalizacji!",
   "map_pathTraceCancelled": "Śledzenie ścieżki anulowano.",
   "map_runTrace": "Uruchom ślad ścieżki",

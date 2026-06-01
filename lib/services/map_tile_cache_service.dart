@@ -38,7 +38,7 @@ class MapTileCacheResult {
 
 class MapTileCacheService {
   static const String cacheKey = 'map_tile_cache';
-  static const String userAgentPackageName = 'org.slopos.client';
+  static const String userAgentPackageName = 'org.sigurdos.client';
   static const int defaultMinZoom = 10;
   static const int defaultMaxZoom = 15;
 

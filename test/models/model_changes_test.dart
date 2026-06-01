@@ -1,10 +1,10 @@
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:slopos_client/models/contact.dart';
-import 'package:slopos_client/models/path_history.dart';
-import 'package:slopos_client/models/app_settings.dart';
-import 'package:slopos_client/connector/meshcore_protocol.dart';
+import 'package:sigurdos_client/models/contact.dart';
+import 'package:sigurdos_client/models/path_history.dart';
+import 'package:sigurdos_client/models/app_settings.dart';
+import 'package:sigurdos_client/connector/meshcore_protocol.dart';
 
 // Builds a valid contact frame with the given pathLen and optional overrides.
 // Frame layout: [respCode(1)][pubKey(32)][type(1)][flags(1)][pathLen(1)][path(64)][name(32)][timestamp(4)][lat(4)][lon(4)]

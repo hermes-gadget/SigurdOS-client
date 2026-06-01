@@ -1,9 +1,9 @@
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:slopos_client/connector/meshcore_protocol.dart';
-import 'package:slopos_client/helpers/path_helper.dart';
-import 'package:slopos_client/models/contact.dart';
+import 'package:sigurdos_client/connector/meshcore_protocol.dart';
+import 'package:sigurdos_client/helpers/path_helper.dart';
+import 'package:sigurdos_client/models/contact.dart';
 
 Contact _contact({
   required int firstByte,
