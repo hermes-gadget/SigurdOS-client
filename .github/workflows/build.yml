@@ -44,9 +44,9 @@ jobs:
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: |
-          echo "$KEYSTORE_BASE64" | base64 -d > android/app/slopos-release.keystore
+          echo "$KEYSTORE_BASE64" | base64 -d > android/app/sigurdos-release.keystore
           cat > android/key.properties << EOF
-          storeFile=slopos-release.keystore
+          storeFile=sigurdos-release.keystore
           storePassword=$KEYSTORE_PASSWORD
           keyAlias=$KEY_ALIAS
           keyPassword=$KEY_PASSWORD
@@ -55,7 +55,7 @@ jobs:
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
-          name: slopos-client-apk
+          name: sigurdos-client-apk
           path: build/app/outputs/flutter-apk/app-release.apk
 
   release:
@@ -65,7 +65,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          name: slopos-client-apk
+          name: sigurdos-client-apk
       - name: Attach APK to release
         uses: softprops/action-gh-release@v1
         with:

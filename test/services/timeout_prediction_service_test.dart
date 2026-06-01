@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:slopos_client/models/delivery_observation.dart';
-import 'package:slopos_client/services/timeout_prediction_service.dart';
+import 'package:sigurdos_client/models/delivery_observation.dart';
+import 'package:sigurdos_client/services/timeout_prediction_service.dart';
 
 void main() {
   late TimeoutPredictionService service;

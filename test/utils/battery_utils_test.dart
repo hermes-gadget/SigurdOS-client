@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:slopos_client/utils/battery_utils.dart';
+import 'package:sigurdos_client/utils/battery_utils.dart';
 
 void main() {
   group('battery utils', () {

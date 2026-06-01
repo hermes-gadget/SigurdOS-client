@@ -5,7 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
-import 'package:slopos_client/screens/path_trace_map.dart';
+import 'package:sigurdos_client/screens/path_trace_map.dart';
 import 'package:provider/provider.dart';
 
 import '../utils/platform_info.dart';
@@ -18,7 +18,7 @@ import '../widgets/message_status_icon.dart';
 import '../helpers/chat_scroll_controller.dart';
 import '../helpers/gif_helper.dart';
 import '../helpers/path_helper.dart';
-import '../theme/slopos_theme.dart';
+import '../theme/sigurdos_theme.dart';
 import '../models/channel_message.dart';
 import '../models/contact.dart';
 import '../l10n/contact_localization.dart';
@@ -2106,11 +2106,11 @@ class _MessageBubble extends StatelessWidget {
                     ),
                     decoration: BoxDecoration(
                       color: bubbleColor,
-                      borderRadius: BorderRadius.circular(SlopOSRadii.pixel),
+                      borderRadius: BorderRadius.circular(SigurdOSRadii.pixel),
                       border: Border.all(
                         color: isOutgoing
-                            ? SlopOSPalette.meBorder
-                            : SlopOSPalette.incomingBorder,
+                            ? SigurdOSPalette.meBorder
+                            : SigurdOSPalette.incomingBorder,
                         width: 2,
                       ),
                     ),

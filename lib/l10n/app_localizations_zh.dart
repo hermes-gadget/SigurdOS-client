@@ -9,7 +9,7 @@ class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
-  String get appTitle => 'SlopOS';
+  String get appTitle => 'SigurdOS';
 
   @override
   String get nav_contacts => '联系人';
@@ -479,7 +479,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String settings_aboutVersion(String version) {
-    return 'SlopOS v$version';
+    return 'SigurdOS v$version';
   }
 
   @override
@@ -3714,10 +3714,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settings_gpxExportAllContacts => '所有联系人位置';
 
   @override
-  String get settings_gpxExportShareText => '来自 SlopOS 的地图数据导出';
+  String get settings_gpxExportShareText => '来自 SigurdOS 的地图数据导出';
 
   @override
-  String get settings_gpxExportShareSubject => 'SlopOS GPX 地图数据导出';
+  String get settings_gpxExportShareSubject => 'SigurdOS GPX 地图数据导出';
 
   @override
   String get snrIndicator_nearByRepeaters => '附近的重复器';

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:slopos_client/connector/meshcore_connector.dart';
-import 'package:slopos_client/widgets/battery_indicator.dart';
+import 'package:sigurdos_client/connector/meshcore_connector.dart';
+import 'package:sigurdos_client/widgets/battery_indicator.dart';
 import 'package:provider/provider.dart';
 
 class AppBarTitle extends StatelessWidget {
-  @Deprecated('Title is now always "SlopOS" — this parameter is ignored')
+  @Deprecated('Title is now always "SigurdOS" — this parameter is ignored')
   final String? title;
   final Widget? leading;
   final Widget? trailing;
@@ -45,7 +45,7 @@ class AppBarTitle extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   const Text(
-                    'SlopOS',
+                    'SigurdOS',
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                   ),

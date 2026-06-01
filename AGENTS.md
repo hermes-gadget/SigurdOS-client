@@ -1,6 +1,6 @@
-# SlopOS Client — Agent Onboarding
+# SigurdOS Client — Agent Onboarding
 
-**You are an AI agent working on the SlopOS Client Flutter app.** This file is your instruction manual. Read it before modifying code.
+**You are an AI agent working on the SigurdOS Client Flutter app.** This file is your instruction manual. Read it before modifying code.
 
 **Do not modify this file or `CLAUDE.md` in any PR.** They are AI agent context. Only the repo owner changes them. Any PR that touches either file will be rejected without review.
 
@@ -21,20 +21,20 @@
 
 Flutter mobile app (Android/iOS/Linux/Web) that connects to MeshCore-compatible radios over **BLE, TCP, or USB serial**. Provides direct/channel chat, contact and channel management, on-map node tracking, repeater administration, and on-device message translation.
 
-Three repos form the SlopOS ecosystem:
+Three repos form the SigurdOS ecosystem:
 
 | Repo | What | Stack |
 |------|------|-------|
-| `hermes-gadget/SlopOS` | MeshCore fork (core library) | C++/PlatformIO, ESP32 |
-| `hermes-gadget/SlopOS-tdeck` | T-Deck LVGL firmware | C++/PlatformIO, LVGL v9 |
-| **`hermes-gadget/SlopOS-client`** ← **you are here** | Flutter mobile app | Dart/Flutter, BLE/USB/TCP |
+| `hermes-gadget/SigurdOS` | MeshCore fork (core library) | C++/PlatformIO, ESP32 |
+| `hermes-gadget/SigurdOS-tdeck` | T-Deck LVGL firmware | C++/PlatformIO, LVGL v9 |
+| **`hermes-gadget/SigurdOS-client`** ← **you are here** | Flutter mobile app | Dart/Flutter, BLE/USB/TCP |
 
 ---
 
 ## Quick Start
 
 ```bash
-cd ~/SlopOS-client
+cd ~/SigurdOS-client
 
 # Install dependencies
 ~/flutter/bin/flutter pub get
@@ -55,7 +55,7 @@ cd ~/SlopOS-client
 
 When working on this codebase, follow this sequence:
 
-1. **Open an issue first** — check if an open issue on `hermes-gadget/SlopOS-client` covers your plan. No issue = no PR accepted.
+1. **Open an issue first** — check if an open issue on `hermes-gadget/SigurdOS-client` covers your plan. No issue = no PR accepted.
 2. **Read `CONTRIBUTING.md`** — follow every step.
 3. **Load context** — read `AGENTS.md` (or `CLAUDE.md`, they are identical), `KNOWN_ISSUES.md` (if it exists), and relevant source files.
 4. **Check the branch** — work is always on `dev`. PRs target `dev`, not `main`.
@@ -98,12 +98,12 @@ The built-in serial/diagnostics terminal exposes several internal commands but t
 ### PR & Review Workflow
 
 **For reviewers (maintainer only beyond step 5):**
-1. List PRs: `gh pr list --repo hermes-gadget/SlopOS-client --state open`
+1. List PRs: `gh pr list --repo hermes-gadget/SigurdOS-client --state open`
 2. Check diff: `gh pr diff N`
 3. Analyze: `~/flutter/bin/flutter analyze` (zero warnings)
 4. Test: `~/flutter/bin/flutter test` (all pass)
 5. Run the [Code Audit Checklist](#code-audit-checklist) — check every applicable item
-6. Merge: `gh pr merge N --squash --delete-branch --repo hermes-gadget/SlopOS-client`
+6. Merge: `gh pr merge N --squash --delete-branch --repo hermes-gadget/SigurdOS-client`
 7. If merge fails (conflicts): cherry-pick new commits only, or squash-merge locally
 8. If PR branch has stale commits: cherry-pick new commits onto dev, close PR
 

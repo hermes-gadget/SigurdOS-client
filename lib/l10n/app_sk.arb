@@ -8,7 +8,7 @@
     }
   },
   "@@locale": "sk",
-  "appTitle": "SlopOS",
+  "appTitle": "SigurdOS",
   "nav_contacts": "Kontakty",
   "nav_channels": "Kanály",
   "nav_map": "Mapa",
@@ -129,7 +129,7 @@
       }
     }
   },
-  "settings_aboutLegalese": "SlopOS Source Projekt 2024",
+  "settings_aboutLegalese": "SigurdOS Source Projekt 2024",
   "settings_aboutDescription": "Otvorený zdrojový Flutter klient pre MeshCore LoRa sieťové zariadenia.",
   "settings_infoName": "Meno",
   "settings_infoId": "Identifikátor",
@@ -1682,8 +1682,8 @@
   "settings_gpxExportAll": "Exportovať všetky kontakty do GPX",
   "settings_gpxExportAllContacts": "Všetky kontaktné lokality",
   "settings_gpxExportChat": "Lokácie sprievodcov",
-  "settings_gpxExportShareText": "Mapové údaje exportované z slopos-client",
-  "settings_gpxExportShareSubject": "slopos-client export dát GPX mapových údajov",
+  "settings_gpxExportShareText": "Mapové údaje exportované z sigurdos-client",
+  "settings_gpxExportShareSubject": "sigurdos-client export dát GPX mapových údajov",
   "pathTrace_someHopsNoLocation": "Jedna alebo viac chmeľov chýba lokalita!",
   "pathTrace_clearTooltip": "Zmazať cestu",
   "map_tapToAdd": "Kliknite na uzly, aby ste ich pridali k ceste.",

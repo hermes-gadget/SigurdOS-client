@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-/// SlopOS pixel palette — deep-black retro blocky theme with
+/// SigurdOS pixel palette — deep-black retro blocky theme with
 /// cyan (#00BFFF) accents. Sharp edges, thick borders, pixel fonts.
-class SlopOSPalette {
-  SlopOSPalette._();
+class SigurdOSPalette {
+  SigurdOSPalette._();
 
   // Surfaces (deep blacks)
   static const bg = Color(0xFF0F0F0F);
@@ -78,8 +78,8 @@ class SlopOSPalette {
 }
 
 /// Pixel font stacks — PressStart2P for headings, PixelifySans for body.
-class SlopOSFonts {
-  SlopOSFonts._();
+class SigurdOSFonts {
+  SigurdOSFonts._();
 
   /// Blocky 8-bit display font for headings, titles, badges.
   static const pixel = 'PressStart2P';
@@ -107,8 +107,8 @@ class SlopOSFonts {
 }
 
 /// Blocky radii — sharp or near-sharp for pixel aesthetic.
-class SlopOSRadii {
-  SlopOSRadii._();
+class SigurdOSRadii {
+  SigurdOSRadii._();
 
   /// Zero radius — perfectly sharp, pixel edges.
   static const none = 0.0;
@@ -124,63 +124,63 @@ class SlopOSRadii {
 }
 
 /// Pixel theme factory.
-class SlopOSTheme {
-  SlopOSTheme._();
+class SigurdOSTheme {
+  SigurdOSTheme._();
 
   static ThemeData dark({bool usePixelFonts = false}) {
     const scheme = ColorScheme.dark(
-      primary: SlopOSPalette.signal,
+      primary: SigurdOSPalette.signal,
       onPrimary: Color(0xFF0A1810),
-      primaryContainer: SlopOSPalette.signalBg,
-      onPrimaryContainer: SlopOSPalette.signal,
-      secondary: SlopOSPalette.blue,
+      primaryContainer: SigurdOSPalette.signalBg,
+      onPrimaryContainer: SigurdOSPalette.signal,
+      secondary: SigurdOSPalette.blue,
       onSecondary: Color(0xFF0A1520),
-      tertiary: SlopOSPalette.magenta,
+      tertiary: SigurdOSPalette.magenta,
       onTertiary: Color(0xFF201020),
-      error: SlopOSPalette.alert,
+      error: SigurdOSPalette.alert,
       onError: Color(0xFF1A0A08),
-      errorContainer: SlopOSPalette.alertBg,
-      onErrorContainer: SlopOSPalette.alert,
-      surface: SlopOSPalette.bg,
-      onSurface: SlopOSPalette.ink,
-      surfaceContainerLowest: SlopOSPalette.bg,
-      surfaceContainerLow: SlopOSPalette.bg1,
-      surfaceContainer: SlopOSPalette.bg1,
-      surfaceContainerHigh: SlopOSPalette.bg2,
-      surfaceContainerHighest: SlopOSPalette.bg3,
-      onSurfaceVariant: SlopOSPalette.ink2,
-      outline: SlopOSPalette.line2,
-      outlineVariant: SlopOSPalette.line,
+      errorContainer: SigurdOSPalette.alertBg,
+      onErrorContainer: SigurdOSPalette.alert,
+      surface: SigurdOSPalette.bg,
+      onSurface: SigurdOSPalette.ink,
+      surfaceContainerLowest: SigurdOSPalette.bg,
+      surfaceContainerLow: SigurdOSPalette.bg1,
+      surfaceContainer: SigurdOSPalette.bg1,
+      surfaceContainerHigh: SigurdOSPalette.bg2,
+      surfaceContainerHighest: SigurdOSPalette.bg3,
+      onSurfaceVariant: SigurdOSPalette.ink2,
+      outline: SigurdOSPalette.line2,
+      outlineVariant: SigurdOSPalette.line,
       shadow: Colors.black,
       scrim: Colors.black54,
-      inverseSurface: SlopOSPalette.ink,
-      onInverseSurface: SlopOSPalette.bg,
-      inversePrimary: SlopOSPalette.signalDim,
+      inverseSurface: SigurdOSPalette.ink,
+      onInverseSurface: SigurdOSPalette.bg,
+      inversePrimary: SigurdOSPalette.signalDim,
     );
     return _build(scheme, Brightness.dark, usePixelFonts: usePixelFonts);
   }
 
   static ThemeData light({bool usePixelFonts = false}) {
     const scheme = ColorScheme.light(
-      primary: SlopOSPalette.lightSignal,
+      primary: SigurdOSPalette.lightSignal,
       onPrimary: Colors.white,
       primaryContainer: Color(0xFFD4E8D8),
-      onPrimaryContainer: SlopOSPalette.lightSignal,
+      onPrimaryContainer: SigurdOSPalette.lightSignal,
       secondary: Color(0xFF2F6EA8),
       onSecondary: Colors.white,
       tertiary: Color(0xFF8C4A8A),
       onTertiary: Colors.white,
       error: Color(0xFFB53D2F),
       onError: Colors.white,
-      surface: SlopOSPalette.lightBg,
-      onSurface: SlopOSPalette.lightInk,
-      surfaceContainerLowest: SlopOSPalette.lightBg,
-      surfaceContainerLow: SlopOSPalette.lightBg1,
-      surfaceContainer: SlopOSPalette.lightBg1,
-      surfaceContainerHigh: SlopOSPalette.lightBg2,
+      surface: SigurdOSPalette.lightBg,
+      onSurface: SigurdOSPalette.lightInk,
+      surfaceContainerLowest: SigurdOSPalette.lightBg,
+      surfaceContainerLow: SigurdOSPalette.lightBg1,
+      surfaceContainer: SigurdOSPalette.lightBg1,
+      surfaceContainerHigh: SigurdOSPalette.lightBg2,
       surfaceContainerHighest: Color(0xFFD5D0C0),
-      onSurfaceVariant: SlopOSPalette.lightInk2,
-      outline: SlopOSPalette.lightLine,
+      onSurfaceVariant: SigurdOSPalette.lightInk2,
+      outline: SigurdOSPalette.lightLine,
       outlineVariant: Color(0xFFDBD6C6),
     );
     return _build(scheme, Brightness.light, usePixelFonts: usePixelFonts);
@@ -191,10 +191,10 @@ class SlopOSTheme {
     Brightness brightness, {
     bool usePixelFonts = false,
   }) {
-    final headingFont = usePixelFonts ? SlopOSFonts.pixel : 'Inter';
-    final headingFallback = usePixelFonts ? SlopOSFonts.pixelFallback : null;
-    final bodyFont = usePixelFonts ? SlopOSFonts.body : 'Inter';
-    final bodyFallback = usePixelFonts ? SlopOSFonts.bodyFallback : null;
+    final headingFont = usePixelFonts ? SigurdOSFonts.pixel : 'Inter';
+    final headingFallback = usePixelFonts ? SigurdOSFonts.pixelFallback : null;
+    final bodyFont = usePixelFonts ? SigurdOSFonts.body : 'Inter';
+    final bodyFallback = usePixelFonts ? SigurdOSFonts.bodyFallback : null;
     final baseText =
         Typography.material2021(
           platform: TargetPlatform.android,
@@ -242,7 +242,7 @@ class SlopOSTheme {
         ),
         iconTheme: IconThemeData(color: scheme.onSurface),
         shape: const Border(
-          bottom: BorderSide(color: SlopOSPalette.line2, width: 2),
+          bottom: BorderSide(color: SigurdOSPalette.line2, width: 2),
         ),
       ),
       cardTheme: CardThemeData(
@@ -250,7 +250,7 @@ class SlopOSTheme {
         surfaceTintColor: Colors.transparent,
         elevation: 0,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(SlopOSRadii.card),
+          borderRadius: BorderRadius.circular(SigurdOSRadii.card),
           side: BorderSide(color: scheme.outline, width: 2),
         ),
         margin: const EdgeInsets.symmetric(vertical: 4, horizontal: 0),
@@ -260,7 +260,7 @@ class SlopOSTheme {
         textColor: scheme.onSurface,
         tileColor: Colors.transparent,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(SlopOSRadii.pixel),
+          borderRadius: BorderRadius.circular(SigurdOSRadii.pixel),
         ),
       ),
       floatingActionButtonTheme: FloatingActionButtonThemeData(
@@ -271,7 +271,7 @@ class SlopOSTheme {
         hoverElevation: 0,
         highlightElevation: 0,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(SlopOSRadii.pixel),
+          borderRadius: BorderRadius.circular(SigurdOSRadii.pixel),
           side: BorderSide(color: scheme.primary, width: 2),
         ),
         extendedTextStyle: TextStyle(
@@ -289,8 +289,8 @@ class SlopOSTheme {
           elevation: 0,
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(SlopOSRadii.pixel),
-            side: const BorderSide(color: SlopOSPalette.signalDim, width: 2),
+            borderRadius: BorderRadius.circular(SigurdOSRadii.pixel),
+            side: const BorderSide(color: SigurdOSPalette.signalDim, width: 2),
           ),
           textStyle: TextStyle(
             fontFamily: headingFont,
@@ -307,7 +307,7 @@ class SlopOSTheme {
           side: BorderSide(color: scheme.outline, width: 2),
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(SlopOSRadii.pixel),
+            borderRadius: BorderRadius.circular(SigurdOSRadii.pixel),
           ),
         ),
       ),
@@ -316,7 +316,7 @@ class SlopOSTheme {
           foregroundColor: scheme.primary,
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(SlopOSRadii.pixel),
+            borderRadius: BorderRadius.circular(SigurdOSRadii.pixel),
           ),
           textStyle: TextStyle(
             fontFamily: headingFont,
@@ -338,15 +338,15 @@ class SlopOSTheme {
           vertical: 10,
         ),
         border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(SlopOSRadii.pixel),
+          borderRadius: BorderRadius.circular(SigurdOSRadii.pixel),
           borderSide: BorderSide(color: scheme.outline, width: 2),
         ),
         enabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(SlopOSRadii.pixel),
+          borderRadius: BorderRadius.circular(SigurdOSRadii.pixel),
           borderSide: BorderSide(color: scheme.outlineVariant, width: 2),
         ),
         focusedBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(SlopOSRadii.pixel),
+          borderRadius: BorderRadius.circular(SigurdOSRadii.pixel),
           borderSide: BorderSide(color: scheme.primary, width: 2),
         ),
       ),
@@ -362,7 +362,7 @@ class SlopOSTheme {
           letterSpacing: 0.5,
         ),
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(SlopOSRadii.pixel),
+          borderRadius: BorderRadius.circular(SigurdOSRadii.pixel),
         ),
         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       ),
@@ -371,7 +371,7 @@ class SlopOSTheme {
         surfaceTintColor: Colors.transparent,
         indicatorColor: scheme.primary.withValues(alpha: 0.14),
         indicatorShape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(SlopOSRadii.pixel),
+          borderRadius: BorderRadius.circular(SigurdOSRadii.pixel),
         ),
         labelTextStyle: WidgetStateProperty.resolveWith((states) {
           final selected = states.contains(WidgetState.selected);
@@ -398,7 +398,7 @@ class SlopOSTheme {
         modalBackgroundColor: scheme.surfaceContainerLow,
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(
-            top: Radius.circular(SlopOSRadii.card),
+            top: Radius.circular(SigurdOSRadii.card),
           ),
         ),
       ),
@@ -406,7 +406,7 @@ class SlopOSTheme {
         backgroundColor: scheme.surfaceContainerLow,
         surfaceTintColor: Colors.transparent,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(SlopOSRadii.card),
+          borderRadius: BorderRadius.circular(SigurdOSRadii.card),
           side: BorderSide(color: scheme.outline, width: 2),
         ),
       ),
@@ -418,7 +418,7 @@ class SlopOSTheme {
         ),
         behavior: SnackBarBehavior.floating,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(SlopOSRadii.pixel),
+          borderRadius: BorderRadius.circular(SigurdOSRadii.pixel),
           side: BorderSide(color: scheme.outline, width: 2),
         ),
       ),
@@ -426,7 +426,7 @@ class SlopOSTheme {
         color: scheme.surfaceContainerHigh,
         surfaceTintColor: Colors.transparent,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(SlopOSRadii.pixel),
+          borderRadius: BorderRadius.circular(SigurdOSRadii.pixel),
           side: BorderSide(color: scheme.outline, width: 2),
         ),
       ),
@@ -442,8 +442,8 @@ class SlopOSTheme {
     double? letterSpacing,
   }) {
     return TextStyle(
-      fontFamily: SlopOSFonts.pixel,
-      fontFamilyFallback: SlopOSFonts.pixelFallback,
+      fontFamily: SigurdOSFonts.pixel,
+      fontFamilyFallback: SigurdOSFonts.pixelFallback,
       fontSize: fontSize ?? 16,
       fontWeight: FontWeight.w400,
       color: color,
@@ -458,8 +458,8 @@ class SlopOSTheme {
     Color? color,
   }) {
     return TextStyle(
-      fontFamily: SlopOSFonts.body,
-      fontFamilyFallback: SlopOSFonts.bodyFallback,
+      fontFamily: SigurdOSFonts.body,
+      fontFamilyFallback: SigurdOSFonts.bodyFallback,
       fontSize: fontSize ?? 14,
       fontWeight: fontWeight ?? FontWeight.w500,
       color: color,
@@ -474,8 +474,8 @@ class SlopOSTheme {
     double? letterSpacing,
   }) {
     return TextStyle(
-      fontFamily: SlopOSFonts.mono,
-      fontFamilyFallback: SlopOSFonts.monoFallback,
+      fontFamily: SigurdOSFonts.mono,
+      fontFamilyFallback: SigurdOSFonts.monoFallback,
       fontSize: fontSize,
       fontWeight: fontWeight,
       color: color,
@@ -487,8 +487,8 @@ class SlopOSTheme {
   /// Small pixel label — blocky uppercase for badges and chips.
   static TextStyle pixelLabel({Color? color, double? fontSize}) {
     return TextStyle(
-      fontFamily: SlopOSFonts.pixel,
-      fontFamilyFallback: SlopOSFonts.pixelFallback,
+      fontFamily: SigurdOSFonts.pixel,
+      fontFamilyFallback: SigurdOSFonts.pixelFallback,
       fontSize: fontSize ?? 8,
       fontWeight: FontWeight.w400,
       letterSpacing: 0.5,
@@ -498,10 +498,10 @@ class SlopOSTheme {
 
   /// Color-code an SNR value.
   static Color snrColor(num? snr, {required bool blocked}) {
-    if (blocked) return SlopOSPalette.alert;
-    if (snr == null) return SlopOSPalette.ink3;
-    if (snr > -5) return SlopOSPalette.green;
-    if (snr > -12) return SlopOSPalette.warn;
-    return SlopOSPalette.alert;
+    if (blocked) return SigurdOSPalette.alert;
+    if (snr == null) return SigurdOSPalette.ink3;
+    if (snr > -5) return SigurdOSPalette.green;
+    if (snr > -12) return SigurdOSPalette.warn;
+    return SigurdOSPalette.alert;
   }
 }

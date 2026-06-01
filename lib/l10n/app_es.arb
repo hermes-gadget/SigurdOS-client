@@ -8,7 +8,7 @@
     }
   },
   "@@locale": "es",
-  "appTitle": "SlopOS",
+  "appTitle": "SigurdOS",
   "nav_contacts": "Contactos",
   "nav_channels": "Canales",
   "nav_map": "Mapa",
@@ -52,7 +52,7 @@
       }
     }
   },
-  "scanner_title": "SlopOS",
+  "scanner_title": "SigurdOS",
   "scanner_scanning": "Escaneando dispositivos...",
   "scanner_connecting": "Conectando...",
   "scanner_disconnecting": "Desconectando...",
@@ -121,7 +121,7 @@
   "settings_appDebugLog": "Registro de Depuración de la App",
   "settings_appDebugLogSubtitle": "Mensajes de depuración de la aplicación",
   "settings_about": "Acerca de",
-  "settings_aboutVersion": "SlopOS versión {version}",
+  "settings_aboutVersion": "SigurdOS versión {version}",
   "@settings_aboutVersion": {
     "placeholders": {
       "version": {
@@ -1710,8 +1710,8 @@
   "settings_gpxExportChat": "Ubicaciones de compañero",
   "settings_gpxExportRepeatersRoom": "Ubicaciones del servidor de repetidor y sala",
   "settings_gpxExportAllContacts": "Todas las ubicaciones de contactos",
-  "settings_gpxExportShareText": "Datos del mapa exportados desde slopos-client",
-  "settings_gpxExportShareSubject": "slopos-client exportación de datos de mapa GPX",
+  "settings_gpxExportShareText": "Datos del mapa exportados desde sigurdos-client",
+  "settings_gpxExportShareSubject": "sigurdos-client exportación de datos de mapa GPX",
   "pathTrace_someHopsNoLocation": "Uno o más de los lúpulos carecen de una ubicación",
   "pathTrace_clearTooltip": "Borrar ruta",
   "map_runTrace": "Ejecutar Rastreo de Ruta",

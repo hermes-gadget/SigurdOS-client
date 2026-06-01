@@ -1,21 +1,21 @@
-/// SlopOS ecosystem integration service.
+/// SigurdOS ecosystem integration service.
 ///
-/// Provides SlopOS-specific device detection, firmware interaction hooks,
+/// Provides SigurdOS-specific device detection, firmware interaction hooks,
 /// and ecosystem features that extend the base MeshCore protocol.
 ///
 /// This is the foundation layer — T-Deck firmware commands, OTA update
 /// plumbing, and device-specific settings will be built on top of this.
 library;
 
-/// Check whether a BLE device name indicates a SlopOS device.
-bool isSlopOSDevice(String deviceName) {
-  return deviceName.startsWith('SlopOS-');
+/// Check whether a BLE device name indicates a SigurdOS device.
+bool isSigurdOSDevice(String deviceName) {
+  return deviceName.startsWith('SigurdOS-');
 }
 
 /// Check whether a device name is any known MeshCore-compatible device.
 bool isMeshCoreDevice(String deviceName) {
   const prefixes = [
-    'SlopOS-',
+    'SigurdOS-',
     'MeshCore-',
     'Whisper-',
     'WisCore-',
@@ -28,38 +28,38 @@ bool isMeshCoreDevice(String deviceName) {
   return prefixes.any((p) => deviceName.startsWith(p));
 }
 
-/// SlopOS firmware variant identifiers.
-enum SlopOSVariant {
-  /// LilyGo T-Deck running SlopOS firmware
+/// SigurdOS firmware variant identifiers.
+enum SigurdOSVariant {
+  /// LilyGo T-Deck running SigurdOS firmware
   tdeck,
 
-  /// LilyGo T-Pager running SlopOS firmware
+  /// LilyGo T-Pager running SigurdOS firmware
   tpager,
 
   /// Generic MeshCore-compatible device
   generic,
 }
 
-/// Parse the device name to determine the SlopOS variant.
-SlopOSVariant slopOSVariantFromName(String deviceName) {
+/// Parse the device name to determine the SigurdOS variant.
+SigurdOSVariant sigurdOSVariantFromName(String deviceName) {
   if (deviceName.contains('T-Deck') || deviceName.contains('tdeck')) {
-    return SlopOSVariant.tdeck;
+    return SigurdOSVariant.tdeck;
   }
   if (deviceName.contains('T-Pager') || deviceName.contains('tpager')) {
-    return SlopOSVariant.tpager;
+    return SigurdOSVariant.tpager;
   }
-  return SlopOSVariant.generic;
+  return SigurdOSVariant.generic;
 }
 
-/// SlopOS-specific firmware capabilities that extend MeshCore protocol.
-class SlopOSCapabilities {
+/// SigurdOS-specific firmware capabilities that extend MeshCore protocol.
+class SigurdOSCapabilities {
   final bool hasDisplay;
   final bool hasKeyboard;
   final bool hasTouch;
   final bool hasGPS;
   final bool hasSDCard;
 
-  const SlopOSCapabilities({
+  const SigurdOSCapabilities({
     this.hasDisplay = false,
     this.hasKeyboard = false,
     this.hasTouch = false,
@@ -68,25 +68,25 @@ class SlopOSCapabilities {
   });
 
   /// Default capabilities for known variants.
-  factory SlopOSCapabilities.forVariant(SlopOSVariant variant) {
+  factory SigurdOSCapabilities.forVariant(SigurdOSVariant variant) {
     switch (variant) {
-      case SlopOSVariant.tdeck:
-        return const SlopOSCapabilities(
+      case SigurdOSVariant.tdeck:
+        return const SigurdOSCapabilities(
           hasDisplay: true,
           hasKeyboard: true,
           hasTouch: true,
           hasGPS: true,
           hasSDCard: true,
         );
-      case SlopOSVariant.tpager:
-        return const SlopOSCapabilities(
+      case SigurdOSVariant.tpager:
+        return const SigurdOSCapabilities(
           hasDisplay: true,
           hasKeyboard: true,
           hasGPS: true,
           hasSDCard: false,
         );
-      case SlopOSVariant.generic:
-        return const SlopOSCapabilities();
+      case SigurdOSVariant.generic:
+        return const SigurdOSCapabilities();
     }
   }
 }

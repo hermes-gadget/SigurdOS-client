@@ -9,7 +9,7 @@ class AppLocalizationsUk extends AppLocalizations {
   AppLocalizationsUk([String locale = 'uk']) : super(locale);
 
   @override
-  String get appTitle => 'SlopOS';
+  String get appTitle => 'SigurdOS';
 
   @override
   String get nav_contacts => 'Контакти';
@@ -511,11 +511,11 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String settings_aboutVersion(String version) {
-    return 'SlopOS v$version';
+    return 'SigurdOS v$version';
   }
 
   @override
-  String get settings_aboutLegalese => 'Проєкт SlopOS Source 2026';
+  String get settings_aboutLegalese => 'Проєкт SigurdOS Source 2026';
 
   @override
   String get settings_aboutDescription =>
@@ -4052,11 +4052,11 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get settings_gpxExportShareText =>
-      'Дані карти експортовані з slopos-client';
+      'Дані карти експортовані з sigurdos-client';
 
   @override
   String get settings_gpxExportShareSubject =>
-      'експорт даних карти slopos-client у форматі GPX';
+      'експорт даних карти sigurdos-client у форматі GPX';
 
   @override
   String get snrIndicator_nearByRepeaters => 'Найближчі ретранслятори';

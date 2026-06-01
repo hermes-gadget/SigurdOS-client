@@ -9,7 +9,7 @@ class AppLocalizationsBg extends AppLocalizations {
   AppLocalizationsBg([String locale = 'bg']) : super(locale);
 
   @override
-  String get appTitle => 'SlopOS';
+  String get appTitle => 'SigurdOS';
 
   @override
   String get nav_contacts => 'Контакти';
@@ -112,7 +112,7 @@ class AppLocalizationsBg extends AppLocalizations {
   }
 
   @override
-  String get scanner_title => 'SlopOS';
+  String get scanner_title => 'SigurdOS';
 
   @override
   String get connectionChoiceUsbLabel => 'USB';
@@ -516,15 +516,15 @@ class AppLocalizationsBg extends AppLocalizations {
 
   @override
   String settings_aboutVersion(String version) {
-    return 'SlopOS, версия $version';
+    return 'SigurdOS, версия $version';
   }
 
   @override
-  String get settings_aboutLegalese => 'SlopOS Open Source Project';
+  String get settings_aboutLegalese => 'SigurdOS Open Source Project';
 
   @override
   String get settings_aboutDescription =>
-      'SlopOS – Flutter клиент за MeshCore LoRa мрежови устройства.';
+      'SigurdOS – Flutter клиент за MeshCore LoRa мрежови устройства.';
 
   @override
   String get settings_aboutOpenMeteoAttribution =>
@@ -4038,11 +4038,11 @@ class AppLocalizationsBg extends AppLocalizations {
 
   @override
   String get settings_gpxExportShareText =>
-      'Картинни данни изнесени от slopos-client';
+      'Картинни данни изнесени от sigurdos-client';
 
   @override
   String get settings_gpxExportShareSubject =>
-      'slopos-client износ на данни за карта в формат GPX';
+      'sigurdos-client износ на данни за карта в формат GPX';
 
   @override
   String get snrIndicator_nearByRepeaters => 'Близки повтарящи се устройства';

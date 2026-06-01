@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:slopos_client/services/linux_ble_error_classifier.dart';
+import 'package:sigurdos_client/services/linux_ble_error_classifier.dart';
 
 void main() {
   group('isLinuxBleConnectFailureText', () {

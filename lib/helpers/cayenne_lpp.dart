@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:slopos_client/utils/app_logger.dart';
+import 'package:sigurdos_client/utils/app_logger.dart';
 
 import '../connector/meshcore_protocol.dart';
 

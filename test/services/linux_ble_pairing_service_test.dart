@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:slopos_client/services/linux_ble_pairing_service.dart';
+import 'package:sigurdos_client/services/linux_ble_pairing_service.dart';
 
 class _FakeProcess implements Process {
   _FakeProcess({this.stdoutText = '', this.autoFinish = true}) {

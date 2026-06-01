@@ -89,5 +89,5 @@ keystore.properties
 .vscode/settings.json
 .contextstream/
 
-android/app/slopos-release.keystore
+android/app/sigurdos-release.keystore
 android/key.properties

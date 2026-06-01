@@ -18,10 +18,10 @@ class UsbSerialService {
   UsbSerialService();
 
   static const MethodChannel _androidMethodChannel = MethodChannel(
-    'slopos_client/android_usb_serial',
+    'sigurdos_client/android_usb_serial',
   );
   static const EventChannel _androidEventChannel = EventChannel(
-    'slopos_client/android_usb_serial_events',
+    'sigurdos_client/android_usb_serial_events',
   );
   final StreamController<Uint8List> _frameController =
       StreamController<Uint8List>.broadcast();

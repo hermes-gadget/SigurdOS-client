@@ -9,7 +9,7 @@ class AppLocalizationsDe extends AppLocalizations {
   AppLocalizationsDe([String locale = 'de']) : super(locale);
 
   @override
-  String get appTitle => 'SlopOS';
+  String get appTitle => 'SigurdOS';
 
   @override
   String get nav_contacts => 'Kontakte';
@@ -112,7 +112,7 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
-  String get scanner_title => 'SlopOS';
+  String get scanner_title => 'SigurdOS';
 
   @override
   String get connectionChoiceUsbLabel => 'USB';
@@ -511,11 +511,11 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String settings_aboutVersion(String version) {
-    return 'SlopOS, Version $version';
+    return 'SigurdOS, Version $version';
   }
 
   @override
-  String get settings_aboutLegalese => 'SlopOS Source Projekt 2026';
+  String get settings_aboutLegalese => 'SigurdOS Source Projekt 2026';
 
   @override
   String get settings_aboutDescription =>
@@ -4052,11 +4052,11 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get settings_gpxExportShareText =>
-      'GPX-Kartendaten aus slopos-client exportiert';
+      'GPX-Kartendaten aus sigurdos-client exportiert';
 
   @override
   String get settings_gpxExportShareSubject =>
-      'GPX-Kartendaten aus slopos-client exportieren';
+      'GPX-Kartendaten aus sigurdos-client exportieren';
 
   @override
   String get snrIndicator_nearByRepeaters => 'In der Nähe befindliche Repeater';

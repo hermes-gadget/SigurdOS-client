@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:gpx/gpx.dart';
-import 'package:slopos_client/connector/meshcore_connector.dart';
-import 'package:slopos_client/connector/meshcore_protocol.dart';
+import 'package:sigurdos_client/connector/meshcore_connector.dart';
+import 'package:sigurdos_client/connector/meshcore_protocol.dart';
 import 'package:path_provider/path_provider.dart';
 import 'dart:io';
 import '../utils/platform_info.dart';
@@ -136,7 +136,7 @@ class GpxExport {
       // 1. Build GPX content (your existing logic – unchanged here)
       final gpx = Gpx()
         ..version = '1.1'
-        ..creator = 'slopos-client exporter'
+        ..creator = 'sigurdos-client exporter'
         ..metadata = Metadata(
           name: name,
           desc: description,

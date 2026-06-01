@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:latlong2/latlong.dart';
-import 'package:slopos_client/services/line_of_sight_service.dart';
+import 'package:sigurdos_client/services/line_of_sight_service.dart';
 
 void main() {
   List<LatLng> makePoints(int count) {

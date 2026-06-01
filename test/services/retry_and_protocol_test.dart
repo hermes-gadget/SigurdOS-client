@@ -3,10 +3,10 @@ import 'dart:typed_data';
 
 import 'package:crypto/crypto.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:slopos_client/connector/meshcore_protocol.dart';
-import 'package:slopos_client/models/contact.dart';
-import 'package:slopos_client/models/message.dart';
-import 'package:slopos_client/services/message_retry_service.dart';
+import 'package:sigurdos_client/connector/meshcore_protocol.dart';
+import 'package:sigurdos_client/models/contact.dart';
+import 'package:sigurdos_client/models/message.dart';
+import 'package:sigurdos_client/services/message_retry_service.dart';
 
 // ---------------------------------------------------------------------------
 // Helpers

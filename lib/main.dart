@@ -6,7 +6,7 @@ import 'package:provider/provider.dart';
 
 import 'screens/chrome_required_screen.dart';
 import 'utils/platform_info.dart';
-import 'theme/slopos_theme.dart';
+import 'theme/sigurdos_theme.dart';
 
 import 'connector/meshcore_connector.dart';
 import 'screens/scanner_screen.dart';
@@ -91,7 +91,7 @@ void main() async {
   await connector.loadUnreadState();
 
   runApp(
-    SlopOSApp(
+    SigurdOSApp(
       connector: connector,
       retryService: retryService,
       pathHistoryService: pathHistoryService,
@@ -129,7 +129,7 @@ https://creativecommons.org/licenses/by/4.0/
   });
 }
 
-class SlopOSApp extends StatelessWidget {
+class SigurdOSApp extends StatelessWidget {
   final MeshCoreConnector connector;
   final MessageRetryService retryService;
   final PathHistoryService pathHistoryService;
@@ -143,7 +143,7 @@ class SlopOSApp extends StatelessWidget {
   final UiViewStateService uiViewStateService;
   final TimeoutPredictionService timeoutPredictionService;
 
-  const SlopOSApp({
+  const SigurdOSApp({
     super.key,
     required this.connector,
     required this.retryService,
@@ -179,7 +179,7 @@ class SlopOSApp extends StatelessWidget {
       child: Consumer<AppSettingsService>(
         builder: (context, settingsService, child) {
           return MaterialApp(
-            title: 'SlopOS',
+            title: 'SigurdOS',
             debugShowCheckedModeBanner: false,
             localizationsDelegates: const [
               AppLocalizations.delegate,
@@ -191,10 +191,10 @@ class SlopOSApp extends StatelessWidget {
             locale: _localeFromSetting(
               settingsService.settings.languageOverride,
             ),
-            theme: SlopOSTheme.light(
+            theme: SigurdOSTheme.light(
               usePixelFonts: settingsService.settings.usePixelFonts,
             ),
-            darkTheme: SlopOSTheme.dark(
+            darkTheme: SigurdOSTheme.dark(
               usePixelFonts: settingsService.settings.usePixelFonts,
             ),
             themeMode: _themeModeFromSetting(

@@ -9,7 +9,7 @@ class AppLocalizationsNl extends AppLocalizations {
   AppLocalizationsNl([String locale = 'nl']) : super(locale);
 
   @override
-  String get appTitle => 'SlopOS';
+  String get appTitle => 'SigurdOS';
 
   @override
   String get nav_contacts => 'Contacten';
@@ -112,7 +112,7 @@ class AppLocalizationsNl extends AppLocalizations {
   }
 
   @override
-  String get scanner_title => 'SlopOS';
+  String get scanner_title => 'SigurdOS';
 
   @override
   String get connectionChoiceUsbLabel => 'USB';
@@ -508,11 +508,11 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String settings_aboutVersion(String version) {
-    return 'SlopOS versie $version';
+    return 'SigurdOS versie $version';
   }
 
   @override
-  String get settings_aboutLegalese => 'SlopOS Source Project 2024';
+  String get settings_aboutLegalese => 'SigurdOS Source Project 2024';
 
   @override
   String get settings_aboutDescription =>
@@ -4024,11 +4024,11 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get settings_gpxExportShareText =>
-      'Kaartgegevens geëxporteerd uit slopos-client';
+      'Kaartgegevens geëxporteerd uit sigurdos-client';
 
   @override
   String get settings_gpxExportShareSubject =>
-      'slopos-client GPX kaartgegevens exporteren';
+      'sigurdos-client GPX kaartgegevens exporteren';
 
   @override
   String get snrIndicator_nearByRepeaters => 'Nabije herhalingseenheden';

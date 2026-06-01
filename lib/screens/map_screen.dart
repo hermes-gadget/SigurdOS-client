@@ -5,8 +5,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
-import 'package:slopos_client/screens/path_trace_map.dart';
-import 'package:slopos_client/widgets/app_bar.dart';
+import 'package:sigurdos_client/screens/path_trace_map.dart';
+import 'package:sigurdos_client/widgets/app_bar.dart';
 import 'package:provider/provider.dart';
 
 import '../connector/meshcore_connector.dart';
@@ -20,7 +20,7 @@ import '../services/app_settings_service.dart';
 import '../services/path_history_service.dart';
 import '../services/map_marker_service.dart';
 import '../services/map_tile_cache_service.dart';
-import '../theme/slopos_theme.dart';
+import '../theme/sigurdos_theme.dart';
 import '../utils/contact_search.dart';
 import '../utils/route_transitions.dart';
 import '../widgets/quick_switch_bar.dart';
@@ -1199,10 +1199,10 @@ class _MapScreenState extends State<MapScreen> {
                     ? const Color(0xFF050505)
                     : Colors.black54,
                 borderRadius: BorderRadius.circular(
-                  usePixelShapes ? SlopOSRadii.none : 8,
+                  usePixelShapes ? SigurdOSRadii.none : 8,
                 ),
                 border: usePixelShapes
-                    ? Border.all(color: SlopOSPalette.signal, width: 2)
+                    ? Border.all(color: SigurdOSPalette.signal, width: 2)
                     : null,
               ),
               alignment: Alignment.center,
@@ -1214,7 +1214,7 @@ class _MapScreenState extends State<MapScreen> {
                   color: Colors.white,
                   fontSize: usePixelShapes ? 10 : 11,
                   fontWeight: FontWeight.w500,
-                  fontFamily: usePixelShapes ? SlopOSFonts.body : null,
+                  fontFamily: usePixelShapes ? SigurdOSFonts.body : null,
                 ),
               ),
             ),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../connector/meshcore_protocol.dart';
-import '../theme/slopos_theme.dart';
+import '../theme/sigurdos_theme.dart';
 
 /// Shape used to encode node type on the map.
 enum NodeMarkerShape {
@@ -109,7 +109,7 @@ class NodeMarkerWidget extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Colors.transparent,
                 shape: BoxShape.rectangle,
-                border: Border.all(color: SlopOSPalette.alert, width: 2),
+                border: Border.all(color: SigurdOSPalette.alert, width: 2),
               ),
             ),
           // Main shape

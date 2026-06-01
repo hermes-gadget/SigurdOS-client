@@ -1,11 +1,11 @@
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:slopos_client/models/contact.dart';
-import 'package:slopos_client/models/path_history.dart';
-import 'package:slopos_client/models/path_selection.dart';
-import 'package:slopos_client/services/path_history_service.dart';
-import 'package:slopos_client/services/storage_service.dart';
+import 'package:sigurdos_client/models/contact.dart';
+import 'package:sigurdos_client/models/path_history.dart';
+import 'package:sigurdos_client/models/path_selection.dart';
+import 'package:sigurdos_client/services/path_history_service.dart';
+import 'package:sigurdos_client/services/storage_service.dart';
 
 // ---------------------------------------------------------------------------
 // Fake storage — no SharedPreferences dependency, all in-memory.

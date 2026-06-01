@@ -8,7 +8,7 @@
     }
   },
   "@@locale": "uk",
-  "appTitle": "SlopOS",
+  "appTitle": "SigurdOS",
   "nav_contacts": "Контакти",
   "nav_channels": "Канали",
   "nav_map": "Карта",
@@ -122,7 +122,7 @@
   "settings_appDebugLog": "Журнал налагодження застосунку",
   "settings_appDebugLogSubtitle": "Повідомлення налагодження застосунку",
   "settings_about": "Про застосунок",
-  "settings_aboutVersion": "SlopOS v{version}",
+  "settings_aboutVersion": "SigurdOS v{version}",
   "@settings_aboutVersion": {
     "placeholders": {
       "version": {
@@ -130,7 +130,7 @@
       }
     }
   },
-  "settings_aboutLegalese": "Проєкт SlopOS Source 2026",
+  "settings_aboutLegalese": "Проєкт SigurdOS Source 2026",
   "settings_aboutDescription": "Клієнт Flutter з відкритим вихідним кодом для пристроїв мережі MeshCore LoRa.",
   "settings_infoName": "Ім'я",
   "settings_infoId": "Ідентифікатор",
@@ -1690,9 +1690,9 @@
   "settings_gpxExportContacts": "Експорт контактів у GPX",
   "settings_gpxExportRepeatersRoom": "Геопозиції ретрансляторів та серверів кімнат",
   "settings_gpxExportChat": "Геопозиції контактів",
-  "settings_gpxExportShareText": "Дані карти експортовані з slopos-client",
+  "settings_gpxExportShareText": "Дані карти експортовані з sigurdos-client",
   "settings_gpxExportAllContacts": "Усі місця контактів",
-  "settings_gpxExportShareSubject": "експорт даних карти slopos-client у форматі GPX",
+  "settings_gpxExportShareSubject": "експорт даних карти sigurdos-client у форматі GPX",
   "pathTrace_someHopsNoLocation": "Один або декілька переходів не мають даних про геопозицію!",
   "map_tapToAdd": "Натисніть на вузли, щоб додати їх до шляху",
   "map_runTrace": "Виконати трасування шляху",
