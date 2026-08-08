@@ -91,3 +91,4 @@ keystore.properties
 
 android/app/sigurdos-release.keystore
 android/key.properties
+.tokensave/
